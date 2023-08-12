@@ -1,0 +1,790 @@
+@font-face {
+  font-family: Gilroy;
+  src: url(src/Gilroy-ExtraBold.otf);
+}
+* {
+  box-sizing: border-box;
+  font-family: "Gilroy";
+  padding: 0;
+  margin: 0;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+
+.courses-btn-2{
+  display: none;
+}
+.main {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.nav {
+  height: 75px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  padding: 0 4vw;
+  
+}
+
+
+.nav-part2 h4 {
+  display: inline-block;
+  justify-content: space-between;
+  margin-right: 50px;
+  font-size: 1.5vw;
+  font-weight: 700;
+}
+
+.heading img {
+  height: 150px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+}
+
+.nav h1 {
+  font-size: 2vw;
+  font-weight: 800;
+}
+
+.nav-part2 i {
+  font-size: 1.5vw;
+  display: none;
+}
+.nav i {
+  display: none;
+}
+
+.content {
+  height: calc(100% - 100px);
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+.left {
+  height: 100%;
+  width: 60%;
+
+  padding: 5vw 5vw;
+}
+
+.left h1 {
+  font-size: 4vw;
+  line-height: 4.4vw;
+  width: 100%;
+}
+
+.nav-part2 button {
+  font-size: 1vw;
+  padding: 1vw 2vw;
+  color: #fff;
+  background-color: #37474f;
+  border-radius: 5px;
+  border: none;
+  font-weight: 700;
+  
+}
+
+.left h1 span {
+  color: #6f3d78;
+}
+
+.left p {
+  font-size: 1.2vw;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.content button {
+  font-size: 1.2vw;
+  padding: 1.1vw 3.1vw;
+  color: #fff;
+  background-color: #6f3d78;
+  border-radius: 5px;
+  border: none;
+  font-weight: 700;
+}
+
+.right {
+  height: 100%;
+  width: 40%;
+}
+
+.right img {
+  height: 100%;
+  width: 100%;
+}
+
+.courses-head {
+  text-align: center;
+  margin-top: 2vw;
+  padding: 2vw;
+  font-size: 4vw;
+  background-color: #916db3;
+}
+
+.courses {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  background-color: #916db3;
+  justify-content: space-evenly;
+}
+
+.nav-part2 a {
+  text-decoration-color: none;
+}
+
+.box {
+  height: 70%;
+  width: 30%;
+}
+.box .img2 {
+  width: 85%;
+  height: 70%;
+}
+.box img {
+  width: 85%;
+  height: 70%;
+  left: 60px;
+  position: relative;
+}
+
+.box h4 {
+  font-size: 2vw;
+}
+
+
+
+.courses-btn {
+  font-size: 1.2vw;
+  padding: 1.1vw 3.1vw;
+  color: #fff;
+  background-color: #000;
+  border-radius: 5px;
+  border: none;
+  font-weight: 700;
+  position: relative;
+  left: 140px;
+  margin-top: 200px;
+}
+
+.courses-btn2 {
+  font-size: 1.2vw;
+  padding: 1.1vw 3.1vw;
+  color: #fff;
+  background-color: #000;
+  border-radius: 5px;
+  border: none;
+  font-weight: 700;
+  position: relative;
+  left: 125px;
+  margin-top: 200px;
+}
+
+.courses .text {
+  text-align: center;
+  font-size: 5vw;
+}
+
+.para{
+  display: none;
+}
+
+.contact-no i{
+  font-size: 3vw;
+  
+}
+
+
+.contact-text{
+  text-align: center;
+  font-size: 1.5vw;
+  background-color: #d7a1f9;
+  margin-top: 0;
+}
+
+.ways{
+  font-size: 2vw;
+}
+
+.contact-no{
+  margin-left: 75px;
+  margin-bottom: 40px;
+ right: 35px;
+  text-align: center;
+  width: 500px;
+  padding: 0 0px;
+}
+
+
+.input-box{
+  border-radius:.4em ;
+  height: 2vw;
+  width: 250px;
+}
+
+label{
+  font-size: 2vw;
+  margin-left: 30px;
+}
+
+
+.text{
+  height: 8vw;
+  width: 300px;
+}
+
+h2{
+  margin-left: px;
+  margin-bottom: 40px;
+  font-size: 3vw;
+}
+
+footer .content .left{
+  display: flex;
+  
+}
+
+footer .content .left .links{
+  padding-left: 50px;
+
+}
+
+footer .content .left .links ul li{
+  padding-bottom: 30px;
+  font-size: 1.5vw;
+  
+}
+
+h3{
+  color: violet;
+  margin-bottom: 20px;
+  font-size: 2vw;
+  right: 100px;
+}
+
+.newsletter{
+  margin-top: 60px;
+  position: relative;
+  text-align: center;
+  color: violet;
+  font-size: 4vw;
+}
+
+
+
+.subscribe{
+  
+  width: 300px;
+  height: 2vw;
+  position: relative;
+  left: 125px;
+}
+
+
+
+.join-us h2{
+  font-size: 4vw;
+  margin-top: 25px; text-align: center; position: relative;
+color: violet;
+}
+
+.contact-btn{
+  font-size: 4vw;
+  
+
+}
+
+.icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons i{
+  font-size: 4vw;
+  margin-top: 0;
+  padding-left: 20px;
+  
+}
+
+
+
+.copyright{
+  display: flex; justify-content: center; font-size: 1.5vw; background-color: violet;
+}
+
+.copyright a{
+  text-decoration: none;
+}
+
+footer .last{
+  position: relative;
+  text-align: center;
+  left: 100px;
+ 
+}
+
+
+@media (max-width: 600px) {
+  .nav h1 {
+    font-size: 6vw;
+  }
+
+  .nav {
+    padding: 10px;
+    margin-top: 10px;
+    height: 50px;
+  }
+
+  
+
+  .nav-part2 i {
+    display: block;
+    font-size: 6vw;
+  }
+
+  .nav button {
+    display: none;
+  }
+
+  .content {
+    height: calc(100% - 60px);
+    flex-direction: column;
+  }
+
+  .left {
+    width: 100%;
+  }
+
+  .right {
+    width: 100%;
+    margin-bottom: 200px;
+  }
+
+  .left h1 {
+    font-size: 10vw;
+    line-height: 10vw;
+    width: 100%;
+  }
+
+.about-content{
+  flex-direction: column-reverse;
+}
+
+  .left p {
+    font-size: 3.5vw;
+    margin-bottom: 10px;
+  }
+
+.para-about{
+  display: none;
+}
+
+  .left .para {
+    display: block;
+    font-size: 7.5vw;
+    text-align: center;
+    margin-bottom: 0;
+
+  }
+
+  .content button {
+    font-size: 4vw;
+    padding: 1.6vw 2.8vw;
+   
+  }
+
+  .courses {
+    flex-direction: column;
+    gap: 0;
+    height: 100%;
+  }
+  .courses-head {
+    position: relative;
+    z-index: 2;
+    font-size: 9vw;
+    margin-bottom: 225px;
+    border-bottom: #fff;
+    margin-top: 350px;
+}
+  
+  .box .text{
+    margin-left: 125px;
+  }
+  .box {
+    width: 100%;
+    background-color: #916db3;
+    
+  }
+
+
+
+
+
+
+
+
+  .courses-btn {
+    padding: 2vw 5vw;
+    font-size: 3vw;
+    text-align: center;
+    left: 150px;
+    position: relative;
+    margin-top: px;
+    display: none;
+  }
+
+  .courses-btn2 {
+    padding: 2vw 5vw;
+    font-size: 3vw;
+    text-align: center;
+    left: 150px;
+    position: relative;
+    margin-top: px;
+    display: none;
+  }
+  .box .img2 {
+    width: 80%;
+    height: 60%;
+    position: relative;
+    left: 50px;
+  }
+
+  .box img {
+    width: 100%;
+    height: 60%;
+    position: relative;
+    left: -3px;
+    
+  }
+
+  .nav-part2 h4,
+  .nav-part2 button {
+    display: block;
+    font-size: 6vw;
+    width: 200px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+  }
+
+
+
+  .nav i{
+    display: block;
+    font-size: 5vw;
+    font-weight: 700;
+    
+  }
+
+  .nav-part2 button {
+    width: 150px;
+    text-align: center;
+    
+  }
+  .nav-part2 {
+    display: none;
+    position: absolute;
+    height: 100vh;
+    width: 200px;
+    top: 0;
+    right: -200px;
+    z-index: 2;
+    background-color: pink;
+    transition: 1s;
+  }
+
+  .nav-part2 i  {
+    
+    margin: 10px;
+    font-size: 8vw;
+    color: #000;
+    font-weight: 800;
+    cursor: pointer;
+  }
+
+  .nav i {
+    display: block;
+    font-size: 5vw;
+    font-weight: 700;
+}
+  .nav i {
+    margin: 10px;
+    font-size: 6vw;
+    color: #000;
+    font-weight: 800;
+    cursor: pointer;
+  }
+
+  .contact-no i{
+    font-size: 8vw;
+    
+  }
+
+  .ways{
+    font-size: 6vw;
+  }
+
+  .contact-no{
+    
+    text-align: center;
+    
+    margin-bottom: 20px;
+    width: 375px;
+    position: relative;
+    
+    padding: 0 px;
+  }
+
+  .contact-text{
+    display: none;
+  }
+ 
+label{
+  font-size: 6vw;
+  margin-left: 150px;
+}
+
+  .input-box{
+    margin-left: 150px;
+    border-radius: 5px ;
+    height: 6vw;
+    
+    width: 250px;
+  }
+
+  .text{
+    height: 20vw;
+    
+  }
+
+  h2{
+    margin-left: 100px;
+    font-size: 7vw;
+  }
+
+  footer .content .left{
+    flex-direction: column;
+    
+  }
+
+  h3{
+    color: violet;
+    margin-bottom: 20px;
+    font-size: 9vw;
+    right: 50px;
+    text-align: center;
+  }
+
+  footer .content .left .links ul li{
+    padding-bottom: 20px;
+    font-size: 6vw;
+    text-align: center;
+    list-style: none;
+    
+    padding-left: 0;
+  }
+
+  footer .content .left .links{
+    position: relative;
+    right: 25px;
+  
+  }
+ 
+.newsletter{
+  color: violet;
+  font-size: 10vw;
+  position: relative;
+  right: 25px;
+  display: none;
+}
+.last{
+  display: none;
+}
+
+.subscribe{
+  width: 250px;
+  position: relative;
+  right: 75px;
+  display: none;
+}
+
+.join-us h2{
+  color: violet;
+  font-size: 15vw;
+  position: relative;
+  left: px;
+  margin-right: 50px;
+  text-align: center;
+}
+
+
+ .right button{
+  margin-left: 150px;
+ }
+
+
+
+
+.icons{
+  display: flex;
+  justify-content: center;
+}
+
+.icons i{
+  font-size: 10vw;
+}
+
+
+
+.copyright{
+  font-size: 4vw;
+}
+
+footer a{
+  text-decoration: none;
+}
+
+.text{
+  text-align: center;
+  width: 250px;
+}
+}
+
+
+
+
+
+
+@media (max-width: 500px){
+.courses-head {
+    margin-bottom: 225px;
+}
+}
+
+@media (max-width: 400px){
+  .box .text{
+    margin-left: 50px;
+  }
+  .heading img{
+    height: 100px;
+    width: 100px;
+  }
+  .nav {
+    padding: 10px;
+    
+  }
+  .contact-no {
+    margin-left: 25px;
+}
+
+  .courses-head{
+    margin-top: 1px;
+    margin-bottom: 210px;
+  }
+
+  
+.input-box{
+  margin-left: 50px;
+}
+.right button{
+  margin-left: 70px;
+}
+h2{
+  margin-left: 75px;
+}
+label{
+  margin-left: 50px;
+}
+  .content button{
+    font-size: 6vw;
+    margin-top: 10px;
+  }
+}
+
+
+@media (max-width: 300px) {
+  .left p{
+    font-size: 4vw;
+  }
+
+  .courses-head{
+    margin-bottom: 125px;
+    margin-top: 50px;
+  }
+
+  .box .text{
+    margin-left: 0;
+  }
+
+  .contact-no{
+    width: 275px;
+  }
+
+  h2{
+    margin-left: 50px;
+  }
+  .input-box{
+    margin-left: 25px;
+  }
+
+  .right button{
+    margin-left: 30px;
+  }
+}
+
+
+@media (max-width: 200px) {
+
+  .left p{
+    font-size: 5vw;
+  }
+
+  .courses-head{
+    margin-bottom: 100px;
+    margin-top: 150px;
+  }
+
+  .box .text{
+    font-size: 6.5vw;
+    position: relative;
+    right: 25px;
+  }
+  
+  .box .img2{
+    position: relative;
+    right: 0;
+    left: 20px;
+  }
+
+  .contact-no{
+    width: 200px
+  }
+
+  h2{
+    margin-left: 30px;
+  }
+
+  .join-us h2{
+    margin-left: 40px;
+  }
+  .icons{
+    position: relative;
+    right: 10px;
+  }
+
+  .input-box{
+    width: 150px;
+  }
+}
